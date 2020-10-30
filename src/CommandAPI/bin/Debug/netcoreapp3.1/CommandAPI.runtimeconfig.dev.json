@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\psgui\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\psgui\\.nuget\\packages"
+    ]
+  }
+}
