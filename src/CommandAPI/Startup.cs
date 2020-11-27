@@ -2,10 +2,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+<<<<<<< HEAD
 using CommandAPI.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 
+=======
+>>>>>>> parent of abdf87b... Add model and reposity
 namespace CommandAPI
 {
  public class Startup
@@ -21,9 +24,6 @@ namespace CommandAPI
  (Configuration.GetConnectionString("PostgreSqlConnection")));
  
  services.AddControllers();
-
- services.AddScoped<ICommandAPIRepo, MockCommandAPIRepo>();
-
  }
  public void Configure(IApplicationBuilder app,
 IWebHostEnvironment env)
